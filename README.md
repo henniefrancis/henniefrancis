@@ -18,7 +18,7 @@
 
 ### :man_technologist: About Me :
 
-I am a Senior Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Johannesburg, South Africa.
+I am a Senior Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from the Western Cape, Cape Town, South Africa.
 
 - :telescope: I’m working as a Senior Software Engineer and contributing to frontend and backend for building web applications.
 
