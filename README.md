@@ -18,22 +18,22 @@
 
 ### :man_technologist: About Me :
 
-I am a Senior Full Stack Software Engineer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from the Western Cape, Cape Town, South Africa.
+I am a Principal Full Stack Software Engineer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from the Western Cape, Cape Town, South Africa.
 
-- :telescope: I’m working as a Senior Software Engineer and contributing to frontend and backend for building web applications.
+- :telescope: I’m working as a Principal Full Stack Software Engineer and contributing to frontend and backend for building web applications.
 
 - :seedling: Enjoy exploring new Technologies.
 
 - :zap: In my free time, I'm fishing, playing games, streaming and big Aviation addict.  Soon to be Pilot :small_airplane:
 
-- :mailbox:How to reach me: [![Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://www.dorkivillage.co.za)
+- :mailbox:How to reach me: [![Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://henniefrancis.tech)
 
 ---
 
 ### :cloud: Personal Socials :
 
 <div id="badges">
-    <a href="https://www.dorkivillage.co.za" target="_blank">
+    <a href="https://henniefrancis.tech" target="_blank">
       <img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Website"/>
     </a>&nbsp;&nbsp;
     <a href="mailto:henniefrancis@gmail.com" target="_blank">
@@ -46,7 +46,7 @@ I am a Senior Full Stack Software Engineer <img src="https://media.giphy.com/med
     <a href="https://twitter.com/henniefrancis">
       <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
     </a>&nbsp;&nbsp;
-    <a href="https://www.instagram.com/dorki_rsa" target="_blank">
+    <a href="https://www.instagram.com/henniefrancis" target="_blank">
       <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
     </a>&nbsp;&nbsp;
     <a href="https://www.linkedin.com/in/henniefrancis" target="_blank">
@@ -60,6 +60,9 @@ I am a Senior Full Stack Software Engineer <img src="https://media.giphy.com/med
 ### :video_game: Gaming Socials :
 
 <div id="badges">
+  <a href="https://www.dorkivillage.co.za" target="_blank">
+      <img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Website"/>
+    </a>&nbsp;&nbsp;
   <a href="https://www.twitch.tv/dorki_rsa" target="_blank">
       <img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" alt="Twitch"/>
     </a>&nbsp;&nbsp;
