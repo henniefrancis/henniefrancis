@@ -8,19 +8,12 @@
 
 <div align="center">
   <img src="https://media.discordapp.net/attachments/713355370373840966/1227699320338382929/IMG_5717.jpg?ex=66295b17&is=6616e617&hm=492347b589bcd9fec93e18b84981d9a2b3ca90b40460b091fc85641aefb590ff&=&format=webp&width=1280&height=960" width="600" height="450"/>
-  
-  <br />
-  <a href="https://www.github.com/henniefrancis" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/github/followers/henniefrancis?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a><a href="https://www.x.com/henniefrancis" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/twitter/follow/henniefrancis?logo=twitter&style=for-the-badge&color=0891b2&labelColor=1c1917"
-/></a><a href="https://www.twitch.tv/dorki_rsa" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/twitch/status/dorki_rsa?logo=twitchsx&style=for-the-badge&color=0891b2&labelColor=1c1917&label=TWITCH+STATUS" /></a>
 </div>
 
 <br />
 
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/> <br />
   <img src="https://komarev.com/ghpvc/?username=dOrKi-RSA&style=flat-square&color=blue" alt=""/>
 </div>
  
@@ -49,11 +42,5 @@ When I'm not coding or fiddle with tech, I'm extremely passionate about flying a
 <img src="https://github-profile-trophy.vercel.app/?username=henniefrancis" alt="Trophey"/>
 
 ---
-
-### :fire: My Stats :
-
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=your-github-username&theme=dark&background=000000)](https://git.io/streak-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 
