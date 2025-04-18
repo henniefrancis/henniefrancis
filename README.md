@@ -19,9 +19,9 @@
  
 ---
 ### 👀 About me: 👀
-2 x AWS Certified | 19x Microsoft Certified | Microsoft Certified Trainer | Microsoft Certified Specialist
+Cloud & Technology Strategist • AWS Community Builder • AWS User Group Leader • Technology Speaker • Mentor • 2x AWS Certified • 19x Microsoft Certified • MCT • Aviation Enthusiast
 
-With more than 18 years’ experience in the industry. I believe if you have a passion for tech and a passion for what you do everyday, you will never ''work'' a day in your life.
+With more than 20 years’ experience in the industry. I believe if you have a passion for tech and a passion for what you do everyday, you will never ''work'' a day in your life.
 
 Currently my main stack is .NET, Java, IaC and Cloud Technologies. I always learn something new or explore a new technology.
 
@@ -30,7 +30,6 @@ When I'm not coding or fiddle with tech, I'm extremely passionate about flying a
 * 🌍  I'm based in Cape Town, South Africa
 * 🖥️  See my portfolio at [henniefrancis.tech](http://henniefrancis.tech)
 * ✉️  You can contact me at [henniefrancis@gmail.com](mailto:henniefrancis@gmail.com)
-* 🚀  I'm currently working on [awesome stuff at Capitec Bank](http://www.capitecbank.co.za)
 * 🧠  I'm learning something new everyday
 * 🤝  I'm open to collaborating on any tech. Always keen to learn something new
 * ⚡  Please connect and collaborate with me!
