@@ -1,9 +1,9 @@
 <svg width="560" height="404" viewBox="0 0 560 404" xmlns="http://www.w3.org/2000/svg" role="img">
   <style>
     text { font-family: 'Segoe UI', 'JetBrains Mono', Consolas, monospace; }
-    .title { font-size: 23px; font-weight: 700; fill: #00FF00; }
+    .title { font-size: 23px; font-weight: 700; fill: #A166FF; }
     .lname { font-size: 16px; fill: #00FF00; }
-    .lpct  { font-size: 16px; font-weight: 700; fill: #FF00FF; }
+    .lpct  { font-size: 16px; font-weight: 700; fill: #A166FF; }
     .foot  { font-size: 10px; fill: #00FF00; opacity: .6; }
   </style>
   <text x="28" y="44" class="title">Most Used Languages</text>
