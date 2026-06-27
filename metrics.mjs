@@ -238,13 +238,13 @@ function buildStatsSVG(stats) {
     { i: "flame",  k: "Current Streak",           v: `${fmt(currentStreak)} d` },
     { i: "flame",  k: "Longest Streak",           v: `${fmt(longestStreak)} d` },
   ];
-  const W = 560, top = 70, lh = 33, H = top + rows.length * lh + 34;
+  const W = 560, top = 78, lh = 39, H = top + rows.length * lh + 38;
   const lines = rows.map((r, idx) => {
     const y = top + idx * lh;
     return `
     <g class="row">
-      ${icon(r.i, 26, y, ic)}
-      <text x="58" y="${y}" class="label">${r.k}</text>
+      ${icon(r.i, 28, y, ic, 23)}
+      <text x="64" y="${y}" class="label">${r.k}</text>
       <text x="${W - 28}" y="${y}" class="value" text-anchor="end">${r.v}</text>
     </g>`;
   }).join("");
@@ -254,13 +254,14 @@ function buildStatsSVG(stats) {
   return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img">
   <style>
     text { font-family: 'Segoe UI', 'JetBrains Mono', Consolas, monospace; }
-    .title { font-size: 19px; font-weight: 700; fill: ${title}; }
-    .label { font-size: 14px; fill: ${label}; }
-    .value { font-size: 14px; font-weight: 700; fill: ${value}; }
+    .title { font-size: 23px; font-weight: 700; fill: ${title}; }
+    .label { font-size: 17px; fill: ${label}; }
+    .value { font-size: 17px; font-weight: 700; fill: ${value}; }
     .foot  { font-size: 10px; fill: ${label}; opacity: .6; }
-    .row { opacity: 1; }
+    .row { opacity: 1; animation: rowin .7s ease both; }
+    @keyframes rowin { from { transform: translateY(10px); } to { transform: translateY(0); } }
   </style>
-  <text x="26" y="38" class="title">${LOGIN} :: contribution stats</text>
+  <text x="28" y="44" class="title">${LOGIN} :: contribution stats</text>
   ${lines}
   <text x="26" y="${H - 16}" class="foot">${foot}</text>
 </svg>`;
@@ -268,20 +269,20 @@ function buildStatsSVG(stats) {
 
 function buildLangSVG(top, otherPct, repoCount) {
   const { title, value, label, stroke } = THEME;
-  const W = 560, barX = 26, barY = 60, barH = 16, barW = W - 52;
+  const W = 560, barX = 28, barY = 66, barH = 18, barW = W - 56;
   let x = barX;
   const seg = (w, c) => { const r = `<rect x="${x.toFixed(2)}" y="${barY}" width="${Math.max(0, w).toFixed(2)}" height="${barH}" fill="${c}"/>`; x += Math.max(0, w); return r; };
   const segs = top.map((l) => seg((l.pct / 100) * barW, l.color)).join("") +
     (otherPct > 0.5 ? seg((otherPct / 100) * barW, "#30363d") : "");
 
-  const colW = (W - 52) / 2, legY = 104, lh = 29;
+  const colW = (W - 56) / 2, legY = 114, lh = 34;
   const rows = Math.ceil(top.length / 2);
   const legend = top.map((l, i) => {
     const col = i % 2, row = Math.floor(i / 2);
     const lx = 26 + col * colW, ly = legY + row * lh;
     return `
-    <circle cx="${lx + 6}" cy="${ly - 4}" r="6" fill="${l.color}"/>
-    <text x="${lx + 20}" y="${ly}" class="lname">${esc(l.name)}</text>
+    <circle cx="${lx + 7}" cy="${ly - 5}" r="7" fill="${l.color}"/>
+    <text x="${lx + 24}" y="${ly}" class="lname">${esc(l.name)}</text>
     <text x="${lx + colW - 18}" y="${ly}" class="lpct" text-anchor="end">${l.pct.toFixed(1)}%</text>`;
   }).join("");
   const H = legY + rows * lh + 18;
@@ -289,12 +290,12 @@ function buildLangSVG(top, otherPct, repoCount) {
   return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img">
   <style>
     text { font-family: 'Segoe UI', 'JetBrains Mono', Consolas, monospace; }
-    .title { font-size: 19px; font-weight: 700; fill: ${title}; }
-    .lname { font-size: 13px; fill: ${label}; }
-    .lpct  { font-size: 13px; font-weight: 700; fill: ${value}; }
+    .title { font-size: 23px; font-weight: 700; fill: ${title}; }
+    .lname { font-size: 16px; fill: ${label}; }
+    .lpct  { font-size: 16px; font-weight: 700; fill: ${value}; }
     .foot  { font-size: 10px; fill: ${label}; opacity: .6; }
   </style>
-  <text x="26" y="38" class="title">${LOGIN} :: most used languages</text>
+  <text x="28" y="44" class="title">${LOGIN} :: most used languages</text>
   <defs><clipPath id="barclip"><rect x="${barX}" y="${barY}" width="${barW}" height="${barH}" rx="8"/></clipPath></defs>
   <g clip-path="url(#barclip)">${segs}</g>
   ${legend}

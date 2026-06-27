@@ -12,12 +12,9 @@ My name is Hennie Francis
 
 <img src="https://komarev.com/ghpvc/?username=dOrKi-RSA&style=flat-square&color=blue" alt=""/>
 </div>
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<img src='https://henniefrancis-511489843375-af-south-1-an.s3.af-south-1.amazonaws.com/public/images/henniefrancis-aws-community-builder-square-2y.png' width=auto height=auto align='left'>
-</td>
-<td width="50%" valign="top">
+
+<img src='https://henniefrancis-511489843375-af-south-1-an.s3.af-south-1.amazonaws.com/public/images/henniefrancis-aws-community-builder-square-2y.png' align="left" width="320" />
+
 Cloud & Technology Strategist • AWS Community Builder • AWS User Group Leader • Technology Speaker • Mentor • 2x AWS Certified • 19x Microsoft Certified • MCT • Aviation Enthusiast
 <br /><br />
 With more than 20 years’ experience in the industry. I believe if you have a passion for tech and a passion for what you do everyday, you will never ''work'' a day in your life.
@@ -25,9 +22,7 @@ With more than 20 years’ experience in the industry. I believe if you have a p
 Currently my main stack is .NET, Java, IaC and Cloud Technologies. I always learn something new or explore a new technology.
 <br /><br />
 When I'm not coding or fiddle with tech, I'm extremely passionate about flying aircrafts. I am a true nerd by heart, I am a content creator on Twitch and also love playing games with my wife. When we don't play games, we enjoy to travel, explore new places and eat good food.
-</td>
-</tr>
-</table>
+<br clear="all" />
 
 ## Quick Facts
 * 🌍 I'm based in Cape Town, South Africa
@@ -38,12 +33,11 @@ When I'm not coding or fiddle with tech, I'm extremely passionate about flying a
 * ⚡ Please connect and collaborate with me!
 
 ---
-<table>
-<tr>
-<td valign="top"><img src="https://raw.githubusercontent.com/henniefrancis/henniefrancis/main/metrics.svg" alt="GitHub stats" width="100%" /></td>
-<td valign="top"><img src="https://raw.githubusercontent.com/henniefrancis/henniefrancis/main/languages.svg" alt="Most used languages" width="100%" /></td>
-</tr>
-</table>
+<p align="center">
+<img src="https://raw.githubusercontent.com/henniefrancis/henniefrancis/main/metrics.svg?v=4" alt="GitHub stats" width="48%" align="top" />
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/henniefrancis/henniefrancis/main/languages.svg?v=4" alt="Most used languages" width="48%" align="top" />
+</p>
 
 <details><summary>GitHub Stats</summary>
 <p align="center">
