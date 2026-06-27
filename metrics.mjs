@@ -142,8 +142,7 @@ async function getExtraStars(repos) {
 
 // --- Formatting + SVG ------------------------------------------------------
 const fmt = (n) =>
-  n == null ? "n/a" :
-  n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1).replace(/\.0$/, "") + "k" : String(n);
+  n == null ? "n/a" : String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
 // octicon-style icon paths (16x16 viewBox), filled
 const ICONS = {
