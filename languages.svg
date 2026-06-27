@@ -1,4 +1,4 @@
-<svg width="560" height="238" viewBox="0 0 560 238" xmlns="http://www.w3.org/2000/svg" role="img">
+<svg width="560" height="354" viewBox="0 0 560 354" xmlns="http://www.w3.org/2000/svg" role="img">
   <style>
     text { font-family: 'Segoe UI', 'JetBrains Mono', Consolas, monospace; }
     .title { font-size: 19px; font-weight: 700; fill: #00FF00; }
@@ -6,10 +6,10 @@
     .lpct  { font-size: 13px; font-weight: 700; fill: #FF00FF; }
     .foot  { font-size: 10px; fill: #00FF00; opacity: .6; }
   </style>
-  <rect x="1" y="1" width="558" height="236" rx="10" fill="none" stroke="#00FF00" stroke-width="1.5" opacity="0.9"/>
+  <rect x="1" y="1" width="558" height="352" rx="10" fill="none" stroke="#00FF00" stroke-width="1.5" opacity="0.9"/>
   <text x="26" y="38" class="title">henniefrancis :: most used languages</text>
   <defs><clipPath id="barclip"><rect x="26" y="60" width="508" height="16" rx="8"/></clipPath></defs>
-  <g clip-path="url(#barclip)"><rect x="26.00" y="60" width="198.28" height="16" fill="#e34c26"/><rect x="224.28" y="60" width="77.34" height="16" fill="#3178c6"/><rect x="301.61" y="60" width="60.67" height="16" fill="#663399"/><rect x="362.28" y="60" width="46.54" height="16" fill="#178600"/><rect x="408.82" y="60" width="45.25" height="16" fill="#3572A5"/><rect x="454.07" y="60" width="38.20" height="16" fill="#f1e05a"/><rect x="492.26" y="60" width="19.29" height="16" fill="#844FBA"/><rect x="511.55" y="60" width="14.62" height="16" fill="#c6538c"/><rect x="526.17" y="60" width="7.83" height="16" fill="#30363d"/></g>
+  <g clip-path="url(#barclip)"><rect x="26.00" y="60" width="198.27" height="16" fill="#e34c26"/><rect x="224.27" y="60" width="77.33" height="16" fill="#3178c6"/><rect x="301.60" y="60" width="60.67" height="16" fill="#663399"/><rect x="362.27" y="60" width="46.54" height="16" fill="#178600"/><rect x="408.80" y="60" width="45.24" height="16" fill="#3572A5"/><rect x="454.05" y="60" width="38.22" height="16" fill="#f1e05a"/><rect x="492.27" y="60" width="19.29" height="16" fill="#844FBA"/><rect x="511.55" y="60" width="14.62" height="16" fill="#c6538c"/><rect x="526.17" y="60" width="4.01" height="16" fill="#89e051"/><rect x="530.19" y="60" width="2.71" height="16" fill="#012456"/><rect x="532.90" y="60" width="0.33" height="16" fill="#384d54"/><rect x="533.23" y="60" width="0.26" height="16" fill="#4F5D95"/><rect x="533.49" y="60" width="0.22" height="16" fill="#A97BFF"/><rect x="533.71" y="60" width="0.15" height="16" fill="#701516"/><rect x="533.86" y="60" width="0.13" height="16" fill="#F05138"/><rect x="533.99" y="60" width="0.01" height="16" fill="#555555"/></g>
   
     <circle cx="32" cy="100" r="6" fill="#e34c26"/>
     <text x="46" y="104" class="lname">HTML</text>
@@ -35,5 +35,29 @@
     <circle cx="286" cy="187" r="6" fill="#c6538c"/>
     <text x="300" y="191" class="lname">SCSS</text>
     <text x="516" y="191" class="lpct" text-anchor="end">2.9%</text>
-  <text x="26" y="224" class="foot">across 31 repos you've worked in · synced 2026-06-27</text>
+    <circle cx="32" cy="216" r="6" fill="#89e051"/>
+    <text x="46" y="220" class="lname">Shell</text>
+    <text x="262" y="220" class="lpct" text-anchor="end">0.8%</text>
+    <circle cx="286" cy="216" r="6" fill="#012456"/>
+    <text x="300" y="220" class="lname">PowerShell</text>
+    <text x="516" y="220" class="lpct" text-anchor="end">0.5%</text>
+    <circle cx="32" cy="245" r="6" fill="#384d54"/>
+    <text x="46" y="249" class="lname">Dockerfile</text>
+    <text x="262" y="249" class="lpct" text-anchor="end">0.1%</text>
+    <circle cx="286" cy="245" r="6" fill="#4F5D95"/>
+    <text x="300" y="249" class="lname">PHP</text>
+    <text x="516" y="249" class="lpct" text-anchor="end">0.1%</text>
+    <circle cx="32" cy="274" r="6" fill="#A97BFF"/>
+    <text x="46" y="278" class="lname">Kotlin</text>
+    <text x="262" y="278" class="lpct" text-anchor="end">0.0%</text>
+    <circle cx="286" cy="274" r="6" fill="#701516"/>
+    <text x="300" y="278" class="lname">Ruby</text>
+    <text x="516" y="278" class="lpct" text-anchor="end">0.0%</text>
+    <circle cx="32" cy="303" r="6" fill="#F05138"/>
+    <text x="46" y="307" class="lname">Swift</text>
+    <text x="262" y="307" class="lpct" text-anchor="end">0.0%</text>
+    <circle cx="286" cy="303" r="6" fill="#555555"/>
+    <text x="300" y="307" class="lname">C</text>
+    <text x="516" y="307" class="lpct" text-anchor="end">0.0%</text>
+  <text x="26" y="340" class="foot">across 31 repos you've worked in · synced 2026-06-27</text>
 </svg>
