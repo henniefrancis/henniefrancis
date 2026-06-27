@@ -124,27 +124,6 @@ function computeStreaks(days) {
   return { current, longest };
 }
 
-// --- Raw all-time commits via Search API (like include_all_commits) -------
-async function getAllCommits() {
-  try {
-    const res = await fetch(
-      `https://api.github.com/search/commits?q=author:${encodeURIComponent(LOGIN)}&per_page=1`,
-      {
-        headers: {
-          Authorization: `token ${TOKEN}`,
-          Accept: "application/vnd.github.cloak-preview+json",
-          "User-Agent": LOGIN,
-        },
-      }
-    );
-    if (!res.ok) return null;
-    const json = await res.json();
-    return typeof json.total_count === "number" ? json.total_count : null;
-  } catch {
-    return null;
-  }
-}
-
 async function getExtraStars(repos) {
   let sum = 0;
   for (const full of repos) {
@@ -186,7 +165,7 @@ function icon(name, x, y, color, size = 19) {
 
 function buildSVG(stats) {
   const {
-    commits, allCommits, prs, reviews, issues, reposContributedTo,
+    commits, prs, reviews, issues, reposContributedTo,
     stars, followers, currentStreak, longestStreak,
     restricted, createdYear, years,
   } = stats;
@@ -199,8 +178,7 @@ function buildSVG(stats) {
   const stroke = "#00FF00";
 
   const rows = [
-    { i: "pulse",  k: "Total Commits (contribution graph)", v: fmt(commits) },
-    { i: "commit", k: "Total Commits (all-time, raw)",      v: fmt(allCommits) },
+    { i: "commit", k: "Total Commits (all-time)",            v: fmt(commits) },
     { i: "pr",     k: "Pull Requests",                       v: fmt(prs) },
     { i: "review", k: "Code Reviews",                        v: fmt(reviews) },
     { i: "issue",  k: "Issues",                              v: fmt(issues) },
@@ -255,7 +233,6 @@ async function run() {
   const profile = await getProfile();
   const { totals, days } = await getYearly(profile.createdAt);
   const { current, longest } = computeStreaks(days);
-  const allCommits = await getAllCommits();
   const extraStars = await getExtraStars(EXTRA_REPOS);
 
   const createdYear = new Date(profile.createdAt).getUTCFullYear();
@@ -264,7 +241,6 @@ async function run() {
 
   return {
     commits: totals.commits,
-    allCommits,
     prs: totals.prs,
     reviews: totals.reviews,
     issues: totals.issues,
@@ -280,7 +256,7 @@ async function run() {
 }
 
 const DEMO_STATS = {
-  commits: 1042, allCommits: 14231, prs: 167, reviews: 1, issues: 1,
+  commits: 1042, prs: 167, reviews: 1, issues: 1,
   reposContributedTo: 48, restricted: 148, stars: 6, followers: 4,
   currentStreak: 5, longestStreak: 34, createdYear: 2014, years: "11.4",
 };
