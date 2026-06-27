@@ -261,7 +261,7 @@ function buildStatsSVG(stats) {
     .row { opacity: 1; animation: rowin .7s ease both; }
     @keyframes rowin { from { transform: translateY(10px); } to { transform: translateY(0); } }
   </style>
-  <text x="28" y="44" class="title">${LOGIN} :: contribution stats</text>
+  <text x="28" y="44" class="title">Contribution Stats</text>
   ${lines}
   <text x="26" y="${H - 16}" class="foot">${foot}</text>
 </svg>`;
@@ -295,7 +295,7 @@ function buildLangSVG(top, otherPct, repoCount) {
     .lpct  { font-size: 16px; font-weight: 700; fill: ${value}; }
     .foot  { font-size: 10px; fill: ${label}; opacity: .6; }
   </style>
-  <text x="28" y="44" class="title">${LOGIN} :: most used languages</text>
+  <text x="28" y="44" class="title">Most Used Languages</text>
   <defs><clipPath id="barclip"><rect x="${barX}" y="${barY}" width="${barW}" height="${barH}" rx="8"/></clipPath></defs>
   <g clip-path="url(#barclip)">${segs}</g>
   ${legend}
