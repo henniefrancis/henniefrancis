@@ -20,7 +20,7 @@ jobs:
 
       - name: Generate metrics SVG
         env:
-          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN }}   # your PAT (see README)
+          GH_TOKEN: ${{ secrets.GH_STATUS_TOKEN }}   # your PAT (see README)
           GH_LOGIN: henniefrancis
           # Optional: org repos you maintain, to fold their stars in.
           # EXTRA_REPOS: "aws-community-za/repo-one,aws-community-za/repo-two"
