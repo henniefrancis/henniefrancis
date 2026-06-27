@@ -261,7 +261,6 @@ function buildStatsSVG(stats) {
     .row { opacity: 0; animation: fadein .5s ease forwards; }
     @keyframes fadein { from { opacity: 0; transform: translateY(6px);} to { opacity: 1; } }
   </style>
-  <rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="10" fill="none" stroke="${stroke}" stroke-width="1.5" opacity="0.9"/>
   <text x="26" y="38" class="title">${LOGIN} :: contribution stats</text>
   ${lines}
   <text x="26" y="${H - 16}" class="foot">${foot}</text>
@@ -296,7 +295,6 @@ function buildLangSVG(top, otherPct, repoCount) {
     .lpct  { font-size: 13px; font-weight: 700; fill: ${value}; }
     .foot  { font-size: 10px; fill: ${label}; opacity: .6; }
   </style>
-  <rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="10" fill="none" stroke="${stroke}" stroke-width="1.5" opacity="0.9"/>
   <text x="26" y="38" class="title">${LOGIN} :: most used languages</text>
   <defs><clipPath id="barclip"><rect x="${barX}" y="${barY}" width="${barW}" height="${barH}" rx="8"/></clipPath></defs>
   <g clip-path="url(#barclip)">${segs}</g>
