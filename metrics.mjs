@@ -242,7 +242,7 @@ function buildStatsSVG(stats) {
   const lines = rows.map((r, idx) => {
     const y = top + idx * lh;
     return `
-    <g class="row" style="animation-delay:${idx * 90}ms">
+    <g class="row">
       ${icon(r.i, 26, y, ic)}
       <text x="58" y="${y}" class="label">${r.k}</text>
       <text x="${W - 28}" y="${y}" class="value" text-anchor="end">${r.v}</text>
@@ -258,8 +258,7 @@ function buildStatsSVG(stats) {
     .label { font-size: 14px; fill: ${label}; }
     .value { font-size: 14px; font-weight: 700; fill: ${value}; }
     .foot  { font-size: 10px; fill: ${label}; opacity: .6; }
-    .row { opacity: 0; animation: fadein .5s ease forwards; }
-    @keyframes fadein { from { opacity: 0; transform: translateY(6px);} to { opacity: 1; } }
+    .row { opacity: 1; }
   </style>
   <text x="26" y="38" class="title">${LOGIN} :: contribution stats</text>
   ${lines}
