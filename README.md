@@ -15,7 +15,7 @@ My name is Hennie Francis
 
 <img src='https://henniefrancis-511489843375-af-south-1-an.s3.af-south-1.amazonaws.com/public/images/henniefrancis-aws-community-builder-square-2y.png' align="left" width="320" />
 
-Cloud & Technology Strategist • AWS Community Builder • AWS User Group Leader • Technology Speaker • Mentor • 3x AWS Certified • 19x Microsoft Certified • MCT • Aviation Enthusiast
+Cloud & Technology Strategist • AWS Community Builder • AWS User Group Leader • Technology Speaker • Mentor • 2x AWS Certified • 19x Microsoft Certified • MCT • Aviation Enthusiast
 <br /><br />
 With more than 20 years’ experience in the industry. I believe if you have a passion for tech and a passion for what you do everyday, you will never ''work'' a day in your life.
 <br /><br />
@@ -34,7 +34,14 @@ When I'm not coding or fiddle with tech, I'm extremely passionate about flying a
 
 ---
 <p align="center">
-<img src="https://raw.githubusercontent.com/henniefrancis/henniefrancis/main/metrics.svg?v=4" alt="GitHub stats" width="48%" align="top" />
+<img src="https://raw.githubusercontent.com/henniefrancis/henniefrancis/main/metrics.svg?v=6" alt="GitHub stats" width="48%" align="top" />
 &nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/henniefrancis/henniefrancis/main/languages.svg?v=4" alt="Most used languages" width="48%" align="top" />
+<img src="https://raw.githubusercontent.com/henniefrancis/henniefrancis/main/languages.svg?v=6" alt="Most used languages" width="48%" align="top" />
 </p>
+
+<details><summary>GitHub Stats</summary>
+<p align="center">
+<img height="100%" width="44.5%" src="https://github-readme-stats.vercel.app/api?username=henniefrancis&show_icons=true&title_color=00FF00&text_color=FF00FF&icon_color=00FF00&border_color=00FF00&bg_color=FFFFFF00&show=reviews,include_all_commits,prs_merged_percentage&hide_border=true" />
+<img height="100%" width="auto" src="https://github-readme-stats.vercel.app/api/top-langs?username=henniefrancis&layout=compact&langs_count=8&card_width=320&show_icons=true&title_color=00FF00&text_color=FF00FF&icon_color=00FF00&border_color=00FF00&bg_color=FFFFFF00&hide_border=true" />
+</p>
+</details>
