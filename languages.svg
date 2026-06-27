@@ -1,0 +1,39 @@
+<svg width="560" height="238" viewBox="0 0 560 238" xmlns="http://www.w3.org/2000/svg" role="img">
+  <style>
+    text { font-family: 'Segoe UI', 'JetBrains Mono', Consolas, monospace; }
+    .title { font-size: 19px; font-weight: 700; fill: #00FF00; }
+    .lname { font-size: 13px; fill: #00FF00; }
+    .lpct  { font-size: 13px; font-weight: 700; fill: #FF00FF; }
+    .foot  { font-size: 10px; fill: #00FF00; opacity: .6; }
+  </style>
+  <rect x="1" y="1" width="558" height="236" rx="10" fill="none" stroke="#00FF00" stroke-width="1.5" opacity="0.9"/>
+  <text x="26" y="38" class="title">henniefrancis :: most used languages</text>
+  <defs><clipPath id="barclip"><rect x="26" y="60" width="508" height="16" rx="8"/></clipPath></defs>
+  <g clip-path="url(#barclip)"><rect x="26.00" y="60" width="198.28" height="16" fill="#e34c26"/><rect x="224.28" y="60" width="77.34" height="16" fill="#3178c6"/><rect x="301.61" y="60" width="60.67" height="16" fill="#663399"/><rect x="362.28" y="60" width="46.54" height="16" fill="#178600"/><rect x="408.82" y="60" width="45.25" height="16" fill="#3572A5"/><rect x="454.07" y="60" width="38.20" height="16" fill="#f1e05a"/><rect x="492.26" y="60" width="19.29" height="16" fill="#844FBA"/><rect x="511.55" y="60" width="14.62" height="16" fill="#c6538c"/><rect x="526.17" y="60" width="7.83" height="16" fill="#30363d"/></g>
+  
+    <circle cx="32" cy="100" r="6" fill="#e34c26"/>
+    <text x="46" y="104" class="lname">HTML</text>
+    <text x="262" y="104" class="lpct" text-anchor="end">39.0%</text>
+    <circle cx="286" cy="100" r="6" fill="#3178c6"/>
+    <text x="300" y="104" class="lname">TypeScript</text>
+    <text x="516" y="104" class="lpct" text-anchor="end">15.2%</text>
+    <circle cx="32" cy="129" r="6" fill="#663399"/>
+    <text x="46" y="133" class="lname">CSS</text>
+    <text x="262" y="133" class="lpct" text-anchor="end">11.9%</text>
+    <circle cx="286" cy="129" r="6" fill="#178600"/>
+    <text x="300" y="133" class="lname">C#</text>
+    <text x="516" y="133" class="lpct" text-anchor="end">9.2%</text>
+    <circle cx="32" cy="158" r="6" fill="#3572A5"/>
+    <text x="46" y="162" class="lname">Python</text>
+    <text x="262" y="162" class="lpct" text-anchor="end">8.9%</text>
+    <circle cx="286" cy="158" r="6" fill="#f1e05a"/>
+    <text x="300" y="162" class="lname">JavaScript</text>
+    <text x="516" y="162" class="lpct" text-anchor="end">7.5%</text>
+    <circle cx="32" cy="187" r="6" fill="#844FBA"/>
+    <text x="46" y="191" class="lname">HCL</text>
+    <text x="262" y="191" class="lpct" text-anchor="end">3.8%</text>
+    <circle cx="286" cy="187" r="6" fill="#c6538c"/>
+    <text x="300" y="191" class="lname">SCSS</text>
+    <text x="516" y="191" class="lpct" text-anchor="end">2.9%</text>
+  <text x="26" y="224" class="foot">across 31 repos you've worked in · synced 2026-06-27</text>
+</svg>
