@@ -1,0 +1,36 @@
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:          # plus a manual "Run workflow" button
+
+permissions:
+  contents: write             # lets the job commit the generated SVG back
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate metrics SVG
+        env:
+          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN }}   # your PAT (see README)
+          GH_LOGIN: henniefrancis
+          # Optional: org repos you maintain, to fold their stars in.
+          # EXTRA_REPOS: "aws-community-za/repo-one,aws-community-za/repo-two"
+          EXTRA_REPOS: ""
+        run: node metrics.mjs
+
+      - name: Commit updated SVG
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add metrics.svg
+          git diff --staged --quiet || git commit -m "chore: refresh metrics [skip ci]"
+          git push
