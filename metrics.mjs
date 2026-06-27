@@ -204,7 +204,7 @@ const fmt = (n) =>
   n == null ? "n/a" : String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-const THEME = { title: "#00FF00", value: "#FF00FF", label: "#00FF00", icon: "#00FF00", stroke: "#00FF00" };
+const THEME = { title: "#A166FF", value: "#A166FF", label: "#00FF00", icon: "#A166FF", stroke: "#A166FF" };
 
 const ICONS = {
   commit: "M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z",
