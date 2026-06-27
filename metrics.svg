@@ -1,0 +1,47 @@
+<svg width="520" height="268" viewBox="0 0 520 268" xmlns="http://www.w3.org/2000/svg" role="img">
+  <style>
+    text { font-family: 'Segoe UI', 'JetBrains Mono', Consolas, monospace; }
+    .title { font-size: 18px; font-weight: 700; fill: #00FF00; }
+    .icon  { font-size: 14px; fill: #00FF00; }
+    .label { font-size: 14px; fill: #00FF00; }
+    .value { font-size: 14px; font-weight: 700; fill: #FF00FF; }
+    .foot  { font-size: 10px; fill: #00FF00; opacity: .6; }
+    .row { opacity: 0; animation: fadein .5s ease forwards; }
+    @keyframes fadein { from { opacity: 0; transform: translateY(6px);} to { opacity: 1; } }
+  </style>
+  <rect x="1" y="1" width="518" height="266" rx="10"
+        fill="none" stroke="#00FF00" stroke-width="1.5" opacity="0.9"/>
+  <text x="25" y="34" class="title">henniefrancis :: contribution stats</text>
+  
+    <g transform="translate(25 58)" class="row" style="animation-delay:0ms">
+      <text x="0"   y="0" class="icon">❖</text>
+      <text x="28"  y="0" class="label">Total Commits (all orgs, all-time)</text>
+      <text x="490" y="0" class="value" text-anchor="end">1k</text>
+    </g>
+    <g transform="translate(25 88)" class="row" style="animation-delay:120ms">
+      <text x="0"   y="0" class="icon">⎇</text>
+      <text x="28"  y="0" class="label">Pull Requests</text>
+      <text x="490" y="0" class="value" text-anchor="end">167</text>
+    </g>
+    <g transform="translate(25 118)" class="row" style="animation-delay:240ms">
+      <text x="0"   y="0" class="icon">☑</text>
+      <text x="28"  y="0" class="label">Code Reviews</text>
+      <text x="490" y="0" class="value" text-anchor="end">1</text>
+    </g>
+    <g transform="translate(25 148)" class="row" style="animation-delay:360ms">
+      <text x="0"   y="0" class="icon">⚠</text>
+      <text x="28"  y="0" class="label">Issues</text>
+      <text x="490" y="0" class="value" text-anchor="end">1</text>
+    </g>
+    <g transform="translate(25 178)" class="row" style="animation-delay:480ms">
+      <text x="0"   y="0" class="icon">★</text>
+      <text x="28"  y="0" class="label">Stars Earned</text>
+      <text x="490" y="0" class="value" text-anchor="end">6</text>
+    </g>
+    <g transform="translate(25 208)" class="row" style="animation-delay:600ms">
+      <text x="0"   y="0" class="icon">⚬</text>
+      <text x="28"  y="0" class="label">Followers</text>
+      <text x="490" y="0" class="value" text-anchor="end">4</text>
+    </g>
+  <text x="25" y="254" class="foot">+148 private contributions counted</text>
+</svg>
