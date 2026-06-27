@@ -15,7 +15,7 @@ My name is Hennie Francis
 
 <img src='https://henniefrancis-511489843375-af-south-1-an.s3.af-south-1.amazonaws.com/public/images/henniefrancis-aws-community-builder-square-2y.png' align="left" width="320" />
 
-Cloud & Technology Strategist • AWS Community Builder • AWS User Group Leader • Technology Speaker • Mentor • 2x AWS Certified • 19x Microsoft Certified • MCT • Aviation Enthusiast
+Cloud & Technology Strategist • AWS Community Builder • AWS User Group Leader • Technology Speaker • Mentor • 3x AWS Certified • 19x Microsoft Certified • MCT • Aviation Enthusiast
 <br /><br />
 With more than 20 years’ experience in the industry. I believe if you have a passion for tech and a passion for what you do everyday, you will never ''work'' a day in your life.
 <br /><br />
