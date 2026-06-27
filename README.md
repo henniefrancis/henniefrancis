@@ -38,10 +38,3 @@ When I'm not coding or fiddle with tech, I'm extremely passionate about flying a
 &nbsp;&nbsp;
 <img src="https://raw.githubusercontent.com/henniefrancis/henniefrancis/main/languages.svg?v=6" alt="Most used languages" width="48%" align="top" />
 </p>
-
-<details><summary>GitHub Stats</summary>
-<p align="center">
-<img height="100%" width="44.5%" src="https://github-readme-stats.vercel.app/api?username=henniefrancis&show_icons=true&title_color=00FF00&text_color=FF00FF&icon_color=00FF00&border_color=00FF00&bg_color=FFFFFF00&show=reviews,include_all_commits,prs_merged_percentage&hide_border=true" />
-<img height="100%" width="auto" src="https://github-readme-stats.vercel.app/api/top-langs?username=henniefrancis&layout=compact&langs_count=8&card_width=320&show_icons=true&title_color=00FF00&text_color=FF00FF&icon_color=00FF00&border_color=00FF00&bg_color=FFFFFF00&hide_border=true" />
-</p>
-</details>
