@@ -313,7 +313,7 @@ async function run() {
   const { totals, days } = await getYearly(profile.createdAt);
   const { current, longest } = computeStreaks(days);
   const extraStars = await getExtraStars(EXTRA_REPOS);
-  const { top, otherPct } = topLanguages(langMap, langColors, 8);
+  const { top, otherPct } = topLanguages(langMap, langColors, 16);
 
   const createdYear = new Date(profile.createdAt).getUTCFullYear();
   const years = ((Date.now() - new Date(profile.createdAt).getTime()) /
@@ -336,16 +336,24 @@ const DEMO_STATS = {
 };
 const DEMO_LANGS = {
   top: [
-    { name: "C#", pct: 55.0, color: "#178600" },
-    { name: "HCL", pct: 20.9, color: "#844FBA" },
-    { name: "HTML", pct: 10.0, color: "#e34c26" },
-    { name: "PowerShell", pct: 5.6, color: "#012456" },
-    { name: "Python", pct: 3.0, color: "#3572A5" },
-    { name: "Shell", pct: 2.4, color: "#89e051" },
-    { name: "TypeScript", pct: 1.6, color: "#3178c6" },
-    { name: "JavaScript", pct: 1.5, color: "#f1e05a" },
+    { name: "HTML", pct: 30.0, color: "#e34c26" },
+    { name: "TypeScript", pct: 14.0, color: "#3178c6" },
+    { name: "CSS", pct: 11.0, color: "#563d7c" },
+    { name: "C#", pct: 9.0, color: "#178600" },
+    { name: "Python", pct: 8.0, color: "#3572A5" },
+    { name: "JavaScript", pct: 7.0, color: "#f1e05a" },
+    { name: "HCL", pct: 4.0, color: "#844FBA" },
+    { name: "SCSS", pct: 3.0, color: "#c6538c" },
+    { name: "Shell", pct: 2.6, color: "#89e051" },
+    { name: "PowerShell", pct: 2.2, color: "#012456" },
+    { name: "Dockerfile", pct: 1.8, color: "#384d54" },
+    { name: "Java", pct: 1.5, color: "#b07219" },
+    { name: "Bicep", pct: 1.2, color: "#519aba" },
+    { name: "Go", pct: 0.9, color: "#00ADD8" },
+    { name: "Ruby", pct: 0.7, color: "#701516" },
+    { name: "Vue", pct: 0.6, color: "#41b883" },
   ],
-  otherPct: 0,
+  otherPct: 1.5,
   repoCount: 42,
 };
 
