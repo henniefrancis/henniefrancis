@@ -55,6 +55,7 @@
 
 ---
 <img src="https://raw.githubusercontent.com/henniefrancis/henniefrancis/main/metrics.svg" alt="GitHub stats" />
+<img src="https://raw.githubusercontent.com/henniefrancis/henniefrancis/main/languages.svg" alt="Most used languages" />
 
 
 <details><summary>GitHub Stats</summary>
