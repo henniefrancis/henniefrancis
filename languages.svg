@@ -8,17 +8,17 @@
   </style>
   <text x="28" y="44" class="title">Most Used Languages</text>
   <defs><clipPath id="barclip"><rect x="28" y="66" width="504" height="18" rx="8"/></clipPath></defs>
-  <g clip-path="url(#barclip)"><rect x="28.00" y="66" width="196.71" height="18" fill="#e34c26"/><rect x="224.71" y="66" width="76.73" height="18" fill="#3178c6"/><rect x="301.44" y="66" width="60.19" height="18" fill="#663399"/><rect x="361.63" y="66" width="46.17" height="18" fill="#178600"/><rect x="407.80" y="66" width="44.89" height="18" fill="#3572A5"/><rect x="452.69" y="66" width="37.90" height="18" fill="#f1e05a"/><rect x="490.59" y="66" width="19.14" height="18" fill="#844FBA"/><rect x="509.73" y="66" width="14.50" height="18" fill="#c6538c"/><rect x="524.23" y="66" width="3.98" height="18" fill="#89e051"/><rect x="528.22" y="66" width="2.69" height="18" fill="#012456"/><rect x="530.90" y="66" width="0.33" height="18" fill="#384d54"/><rect x="531.23" y="66" width="0.26" height="18" fill="#4F5D95"/><rect x="531.49" y="66" width="0.22" height="18" fill="#A97BFF"/><rect x="531.71" y="66" width="0.15" height="18" fill="#701516"/><rect x="531.86" y="66" width="0.13" height="18" fill="#F05138"/><rect x="531.99" y="66" width="0.01" height="18" fill="#555555"/></g>
+  <g clip-path="url(#barclip)"><rect x="28.00" y="66" width="197.47" height="18" fill="#e34c26"/><rect x="225.47" y="66" width="77.02" height="18" fill="#3178c6"/><rect x="302.49" y="66" width="60.42" height="18" fill="#663399"/><rect x="362.91" y="66" width="46.35" height="18" fill="#178600"/><rect x="409.26" y="66" width="45.06" height="18" fill="#3572A5"/><rect x="454.32" y="66" width="38.05" height="18" fill="#f1e05a"/><rect x="492.37" y="66" width="17.27" height="18" fill="#844FBA"/><rect x="509.64" y="66" width="14.56" height="18" fill="#c6538c"/><rect x="524.20" y="66" width="4.00" height="18" fill="#89e051"/><rect x="528.20" y="66" width="2.70" height="18" fill="#012456"/><rect x="530.90" y="66" width="0.33" height="18" fill="#384d54"/><rect x="531.23" y="66" width="0.26" height="18" fill="#4F5D95"/><rect x="531.49" y="66" width="0.22" height="18" fill="#A97BFF"/><rect x="531.71" y="66" width="0.15" height="18" fill="#701516"/><rect x="531.86" y="66" width="0.13" height="18" fill="#F05138"/><rect x="531.99" y="66" width="0.01" height="18" fill="#555555"/></g>
   
     <circle cx="33" cy="109" r="7" fill="#e34c26"/>
     <text x="50" y="114" class="lname">HTML</text>
-    <text x="260" y="114" class="lpct" text-anchor="end">39.0%</text>
+    <text x="260" y="114" class="lpct" text-anchor="end">39.2%</text>
     <circle cx="285" cy="109" r="7" fill="#3178c6"/>
     <text x="302" y="114" class="lname">TypeScript</text>
-    <text x="512" y="114" class="lpct" text-anchor="end">15.2%</text>
+    <text x="512" y="114" class="lpct" text-anchor="end">15.3%</text>
     <circle cx="33" cy="143" r="7" fill="#663399"/>
     <text x="50" y="148" class="lname">CSS</text>
-    <text x="260" y="148" class="lpct" text-anchor="end">11.9%</text>
+    <text x="260" y="148" class="lpct" text-anchor="end">12.0%</text>
     <circle cx="285" cy="143" r="7" fill="#178600"/>
     <text x="302" y="148" class="lname">C#</text>
     <text x="512" y="148" class="lpct" text-anchor="end">9.2%</text>
@@ -30,7 +30,7 @@
     <text x="512" y="182" class="lpct" text-anchor="end">7.5%</text>
     <circle cx="33" cy="211" r="7" fill="#844FBA"/>
     <text x="50" y="216" class="lname">HCL</text>
-    <text x="260" y="216" class="lpct" text-anchor="end">3.8%</text>
+    <text x="260" y="216" class="lpct" text-anchor="end">3.4%</text>
     <circle cx="285" cy="211" r="7" fill="#c6538c"/>
     <text x="302" y="216" class="lname">SCSS</text>
     <text x="512" y="216" class="lpct" text-anchor="end">2.9%</text>
@@ -58,5 +58,5 @@
     <circle cx="285" cy="347" r="7" fill="#555555"/>
     <text x="302" y="352" class="lname">C</text>
     <text x="512" y="352" class="lpct" text-anchor="end">0.0%</text>
-  <text x="26" y="390" class="foot">across 31 repos you've worked in · synced 2026-06-27</text>
+  <text x="26" y="390" class="foot">across 30 repos you've worked in · synced 2026-06-28</text>
 </svg>
