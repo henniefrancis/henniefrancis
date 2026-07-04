@@ -48,12 +48,12 @@
     <g class="row">
       <g transform="translate(28 331) scale(1.4375)" fill="#A166FF" fill-rule="evenodd"><path d="M8.5.25a.75.75 0 0 0-1.262-.546C5.81 1.04 4.5 2.673 4.5 4.5c0 .47.077.93.22 1.36-.61-.39-1.12-.94-1.46-1.62A.75.75 0 0 0 2 4.5C2 8.5 4.5 11 7.5 11s5.5-2.5 5.5-6c0-2.02-1.06-3.86-2.62-5.06a.75.75 0 0 0-1.2.55c0 .9-.36 1.66-.86 2.2.1-.46.18-.95.18-1.44 0-.5-.07-.99-.2-1.5Z"/></g>
       <text x="64" y="351" class="label">Current Streak</text>
-      <text x="532" y="351" class="value" text-anchor="end">2 d</text>
+      <text x="532" y="351" class="value" text-anchor="end">0 d</text>
     </g>
     <g class="row">
       <g transform="translate(28 370) scale(1.4375)" fill="#A166FF" fill-rule="evenodd"><path d="M8.5.25a.75.75 0 0 0-1.262-.546C5.81 1.04 4.5 2.673 4.5 4.5c0 .47.077.93.22 1.36-.61-.39-1.12-.94-1.46-1.62A.75.75 0 0 0 2 4.5C2 8.5 4.5 11 7.5 11s5.5-2.5 5.5-6c0-2.02-1.06-3.86-2.62-5.06a.75.75 0 0 0-1.2.55c0 .9-.36 1.66-.86 2.2.1-.46.18-.95.18-1.44 0-.5-.07-.99-.2-1.5Z"/></g>
       <text x="64" y="390" class="label">Longest Streak</text>
       <text x="532" y="390" class="value" text-anchor="end">12 d</text>
     </g>
-  <text x="26" y="451" class="foot">On GitHub since 2015 · 11.3 yrs · +148 private contributions · synced 2026-07-03</text>
+  <text x="26" y="451" class="foot">On GitHub since 2015 · 11.3 yrs · +148 private contributions · synced 2026-07-04</text>
 </svg>
