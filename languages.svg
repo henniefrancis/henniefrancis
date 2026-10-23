@@ -8,7 +8,7 @@
   </style>
   <text x="28" y="44" class="title">Most Used Languages</text>
   <defs><clipPath id="barclip"><rect x="28" y="66" width="504" height="18" rx="8"/></clipPath></defs>
-  <g clip-path="url(#barclip)"><rect x="28.00" y="66" width="253.42" height="18" fill="#3178c6"/><rect x="281.42" y="66" width="102.01" height="18" fill="#e34c26"/><rect x="383.43" y="66" width="39.86" height="18" fill="#f1e05a"/><rect x="423.29" y="66" width="30.37" height="18" fill="#663399"/><rect x="453.66" y="66" width="21.22" height="18" fill="#3572A5"/><rect x="474.88" y="66" width="19.79" height="18" fill="#7355dd"/><rect x="494.68" y="66" width="18.57" height="18" fill="#844FBA"/><rect x="513.24" y="66" width="9.33" height="18" fill="#c6538c"/><rect x="522.57" y="66" width="7.63" height="18" fill="#89e051"/><rect x="530.20" y="66" width="1.32" height="18" fill="#012456"/><rect x="531.52" y="66" width="0.12" height="18" fill="#4F5D95"/><rect x="531.65" y="66" width="0.12" height="18" fill="#384d54"/><rect x="531.76" y="66" width="0.10" height="18" fill="#A97BFF"/><rect x="531.86" y="66" width="0.07" height="18" fill="#701516"/><rect x="531.94" y="66" width="0.06" height="18" fill="#F05138"/><rect x="532.00" y="66" width="0.00" height="18" fill="#555555"/></g>
+  <g clip-path="url(#barclip)"><rect x="28.00" y="66" width="253.44" height="18" fill="#3178c6"/><rect x="281.44" y="66" width="101.97" height="18" fill="#e34c26"/><rect x="383.42" y="66" width="39.83" height="18" fill="#f1e05a"/><rect x="423.25" y="66" width="30.35" height="18" fill="#663399"/><rect x="453.60" y="66" width="21.21" height="18" fill="#3572A5"/><rect x="474.81" y="66" width="19.78" height="18" fill="#7355dd"/><rect x="494.59" y="66" width="18.67" height="18" fill="#844FBA"/><rect x="513.25" y="66" width="9.32" height="18" fill="#c6538c"/><rect x="522.57" y="66" width="7.63" height="18" fill="#89e051"/><rect x="530.20" y="66" width="1.32" height="18" fill="#012456"/><rect x="531.52" y="66" width="0.12" height="18" fill="#4F5D95"/><rect x="531.65" y="66" width="0.12" height="18" fill="#384d54"/><rect x="531.76" y="66" width="0.10" height="18" fill="#A97BFF"/><rect x="531.86" y="66" width="0.07" height="18" fill="#701516"/><rect x="531.94" y="66" width="0.06" height="18" fill="#F05138"/><rect x="532.00" y="66" width="0.00" height="18" fill="#555555"/></g>
   
     <circle cx="33" cy="109" r="7" fill="#3178c6"/>
     <text x="50" y="114" class="lname">TypeScript</text>
@@ -33,7 +33,7 @@
     <text x="260" y="216" class="lpct" text-anchor="end">3.7%</text>
     <circle cx="285" cy="211" r="7" fill="#c6538c"/>
     <text x="302" y="216" class="lname">SCSS</text>
-    <text x="512" y="216" class="lpct" text-anchor="end">1.9%</text>
+    <text x="512" y="216" class="lpct" text-anchor="end">1.8%</text>
     <circle cx="33" cy="245" r="7" fill="#89e051"/>
     <text x="50" y="250" class="lname">Shell</text>
     <text x="260" y="250" class="lpct" text-anchor="end">1.5%</text>
